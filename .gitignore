@@ -25,6 +25,7 @@ project.lock.json
 *.ncrunchsolution
 *.*sdf
 *.ipch
+*.nupkg
 
 .vs/
 npm-debug.log

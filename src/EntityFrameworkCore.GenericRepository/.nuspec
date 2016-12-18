@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Required elements-->
+    <id>EntityFrameworkCore.GenericRepository</id>
+    <version>0.1.0</version>
+    <description>Generically Typed Repository Class for EF Core models</description>
+    <authors>kmkatsma</authors>
+    <tags>entityframeworkcore,ef,ef.core,core,entity,framework,generic,generics</tags>
+    <projectUrl>https://github.com/kmkatsma/EntityFrameworkCore.GenericRepository</projectUrl>
+    <licenseUrl>https://github.com/kmkatsma/EntityFrameworkCore.GenericRepository/LICENSE/</licenseUrl>
+    <dependencies>
+      <group targetFramework="netstandard1.6">
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="1.1.0" />
+        <dependency id="Microsoft.EntityFrameworkCore.Design" version="1.1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\release\NETStandard1.6\EntityFrameworkCore.GenericRepository.dll" target="lib\netstandard1.6\" />
+  </files>
+</package>
