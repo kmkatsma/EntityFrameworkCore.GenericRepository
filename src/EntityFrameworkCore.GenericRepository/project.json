@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": false, 
+    "outputName": "EntityFrameworkCore.GenericRepository",
+    "preserveCompilationContext": true
+  },
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
+    "Microsoft.EntityFrameworkCore.Design": "1.1.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {        
+        "NETStandard.Library": "1.6.1"
+      },
+      "imports": "dnxcore50"
+    }
+  },
+  "runtimeOptions": {
+    "configProperties": {
+      "System.GC.Server": true
+    }
+  },
+  "tooling": {
+    "defaultNamespace": "EntityFrameworkCore.GenericRepository"
+  }
+}

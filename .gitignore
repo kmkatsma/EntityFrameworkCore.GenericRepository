@@ -1,0 +1,43 @@
+[Oo]bj/
+[Bb]in/
+TestResults/
+.nuget/
+*.sln.ide/
+_ReSharper.*/
+packages/
+artifacts/
+PublishProfiles/
+*.user
+*.suo
+*.cache
+*.docstates
+_ReSharper.*
+nuget.exe
+project.lock.json
+*net45.csproj
+*net451.csproj
+*k10.csproj
+*.psess
+*.vsp
+*.pidb
+*.userprefs
+*DS_Store
+*.ncrunchsolution
+*.*sdf
+*.ipch
+
+.vs/
+npm-debug.log
+/.build/
+/Logs/
+
+# The templates can't contain their own .gitignore files, because Yeoman has strange default handling for
+# files with that name (https://github.com/npm/npm/issues/1862). So, each template instead has a template_gitignore
+# file which gets renamed after the files are copied. And so any files that need to be excluded in the source
+# repo have to be excluded here.
+/node_modules/
+/bower_components/
+/wwwroot/dist/
+/wwwroot/assets/
+/ClientApp/dist/
+.vscode/
