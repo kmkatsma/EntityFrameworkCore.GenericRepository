@@ -3,7 +3,7 @@
   <metadata>
     <!-- Required elements-->
     <id>EntityFrameworkCore.GenericRepository</id>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <description>Generically Typed Repository Class for EF Core models</description>
     <authors>kmkatsma</authors>
     <tags>entityframeworkcore,ef,ef.core,core,entity,framework,generic,generics</tags>
